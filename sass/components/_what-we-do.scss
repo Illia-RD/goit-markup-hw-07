@@ -2,25 +2,25 @@
   padding-top: 0;
 }
 
-.what-we-do-title {
+.what-we-do__title {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: var(--tipical-margin-1);
 }
-.what-we-do-list {
+.what-we-do__list {
   display: flex;
 }
 
-.what-we-do-item {
+.what-we-do__item {
   position: relative;
   &:not(:last-child) {
     margin-right: var(--tipical-margin-2);
   }
 }
 
-.what-we-do-text {
+.what-we-do__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
